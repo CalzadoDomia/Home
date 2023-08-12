@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*INICIO DEL INICIO*/
+
+#menuCafetto{
+    color: #910000;
+    background-color: #FACE7F; 
+    font-family: 'Caprasimo', cursive;
+}
+
+#navbarNavAltMarkup a{
+    color: #910000;
+    margin-right: 30px;
+}
+
+#Buscador{
+    margin-right: 50px;
+}
+#imgLogo{
+    height: 70px;
+    width: auto;
+    margin-left: 50px;
+}
+
+header{
+    background: url(IMAGENES/patron.jpeg) no-repeat;
+    min-width: 50vh;
+    background-size: cover;
+  
+}
+
+.bg-color{
+    background-color: rgba(0, 0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+.logo-name{
+    margin-top: 100px;
+    color: #911F27;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: 'Belanosima', sans-serif;
+    text-shadow:#FACE7F;
+    margin-top: 220px;
+
+}
+
+#slogan{
+    color: #911F27;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#subtitulo{
+    color: white;
+    font-weight: 600;
+}
+
+/*FIN DE LA BARRA DE NAVEGACION*/
+
+.encabezados{
+    color: #911F27;
+    font-size: 59px;
+    margin-bottom: 70px;
+    padding-top: 70px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
+}
+
+/*FIN DE INICIO*/
+
+/*INICIO DEL ACERCA DE*/
+
+
+#acerca-img{
+    background: url(IMAGENES/Estante.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 70vh;
+    min-width: auto;
+    margin-top: 50px;
+
+}
+
+#acerca-txt{
+    padding: 30px 100px 100px 100px;
+    margin-top: 100px;
+}
+
+#acerca-txt p{
+    color: #630A10;
+    font-size: 15px;
+}
+
+/*FIN DEl ACERCA DE*/
+
+
+
+/*INICIO FOTOS*/
+#fotos h2{
+    margin-bottom:5px;
+    margin-top: 50px;
+}
+
+#carouselExampleAutoplaying{
+    margin-top: 10px;
+}
+#carouselExampleAutoplaying1{
+    margin-top: 50px;
+}
+.carousel-item img{
+    width: 300px;
+
+    height: 370px;
+}
+#carouselExampleAutoplaying1 .carousel-inner .carousel-item img{
+    width: 100px;
+}
+/*FIN FOTOS*/
+
+/*INICIO HORARIOS Y UBICACION*/
+
+#ubicacion h2{
+    margin-top: 70px;
+    margin-bottom:60px;
+}
+
+#ubicacion img{
+    height: 70%;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+/*FIN DE HORARIOS Y UBICACION*/
+
+#footer{
+    background-color: #630A10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row !important;
+}
+
+#footer a img{
+    width: 35px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.footer-text{
+    color: #911F27;
+    font-size: 30px;
+    font-family: 'Caprasimo', cursive;
+    margin-top: 40px;
+}
+
+.css-button-arrow--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef233c
+  }
+  .css-button-arrow--red:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  .css-button-arrow--red:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .css-button-arrow--red:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  .info{
+    margin-top: 100px;
+  }
+  /*Signo carrusel*/
+  .carousel-control-next-icon{
+    background-image: url('imagenes/signo1.png')!important;
+    
+  }
+  .carousel-control-prev-icon{
+    background-image: url('imagenes/signo.png')!important;
+  
+  }
