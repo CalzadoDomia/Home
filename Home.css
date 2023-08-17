@@ -93,7 +93,7 @@ header{
 
 #acerca-txt p{
     color: #630A10;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 /*FIN DEl ACERCA DE*/
@@ -212,7 +212,6 @@ header{
   
   }
 
-/media/
   @media (max-width: 500px) {
    
   .carousel-item img{
