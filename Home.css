@@ -211,3 +211,30 @@ header{
     background-image: url('imagenes/signo.png')!important;
   
   }
+
+/media/
+  @media (max-width: 500px) {
+   
+  .carousel-item img{
+    width: 200px;
+    height: 200px;
+    
+}
+.color section .text{
+    font-size: 10px;
+    text-align: right;
+  
+  }
+  .color section .text2{
+    font-size: 11px;
+    margin-left: 2px;
+    text-align: right;
+  }
+  .color div{
+margin-top: 11px;
+    margin-left: 0px;
+  }
+  .color .e{
+    margin-left: 0px;
+  }
+  }
